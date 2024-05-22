@@ -1,0 +1,209 @@
+/* Custom styles for Header component */
+.app-bar {
+  background-color: #8499b9;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-title {
+  flex-grow: 1;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.nav-button {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+  color: rgb(34, 52, 119);
+}
+
+/* For the preview-item container */
+.preview-item {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgb(142, 154, 176);  
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.preview-image {
+  width: 100%;
+  height: 260PX;
+  border-radius: 8px;
+}
+.dots {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+/* For the buttons container inside preview-item */
+.buttons {
+  margin-top: 10px;
+}
+
+/* For the button elements inside buttons container */
+.buttons button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* For the "Back to Show List" button in the season-container */
+.season-container button {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* For the seasons images */
+.seasons {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  
+}
+
+/* For the "View Episodes" button in the seasons list */
+
+
+.season-container .MuiIconButton-root {
+  margin-top: 5px;
+
+  cursor: pointer;
+}
+
+/* For the audio player in the seasons list */
+.season-container audio {
+  width: 100%;
+}
+
+/* Optional: Styling for the search input, select boxes, and h3 elements */
+.Card-Box input[type="text"],
+.Card-Box select,
+.Card-Box h3 {
+  margin: 10px 0;
+  padding: 5px;
+  width: 20%;
+}
+
+/* Optional: Styling for the loading text */
+.Card-Box div {
+  text-align: center;
+
+}
+
+/* Card */
+body {
+  background-color: #1a3666;
+  color: #f0f0f0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.Card-Box {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.preview-item {
+  
+  box-shadow: 0 4px 6px rgba(200, 180, 180, 0.5);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.preview-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+.card-image {
+  width: 100%;
+  height: 10%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  max-height: 250px;
+}
+.season-container{
+  width: 250px;
+  
+}
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+.Box-container {
+  padding: 2ppx;
+  margin-top: 2px;
+  
+}
+h3 {
+  font-size: 15px;
+  /* Adjust the font size to your preference */
+  margin-bottom: 5px;
+}
+.Genre{
+font-size: 15px;
+  /* Adjust the font size to your preference */
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  /* Adjust the font size to your preference */
+  margin-bottom: 5px;
+}
+
+.Sort-By{
+  margin: 30px;
+  background-color: lightblue;
+  color: darkblue;
+  border: darkblue;
+  
+
+}
+.Icons{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+  }
+
+  /* login.css */
+/* Custom styles for the login page */
+
+/* Set background color */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Center the Auth component */
+div {
+  background-color: #1a3666;
+ 
+}
+
+
